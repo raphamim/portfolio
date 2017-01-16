@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello My name is</title>
+		<link rel="stylesheet" href="../css/style.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<p id="logo">Julien Noyer</p>
+			<em>Formateur HTML/CSS/JS</em>
+
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../my_works.html" class="active">My works</a></li>
+					<li id="moveMyLi"><a href="../about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<strong id="headerTwitter">Tweet</strong>
+			<p>@Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet felis at ipsum gravida dictum condimentum in purus. 17 minutes ago</p>
+
+			<strong>Social</strong>
+			<ul>
+				<li><a href="#"><img src="../img/pictos/facebook.png" height="20" width="20" alt=""></a></li>
+				<li><a href="#"><img src="../img/pictos/behance.png" height="20" width="20" alt=""></a></li>
+				<li><a href="#"><img src="../img/pictos/vimeo.png" height="20" width="20" alt=""></a></li>
+			</ul>
+
+		</header>
+
+		<main>
+			<section id="pageTitle">
+				<h1>My works <br><span>A Day in the Life of a Jazzman</span></h1>
+				<h2>Brand New Photoshoot in Downtown LA</h2>
+				<aside>
+					<img src="../img/article/1_img_article.jpg" alt="Photo d'un jazzman">
+				</aside>
+				<ul>
+					<li><i class="fa fa-user"></i> Posted by <a href="#">Admin</a></li>
+					<li><i class="fa fa-calendar-o"></i> 07 Sept. 2015</li>
+					<li><i class="fa fa-tag"></i> <a href="#">photo</a>, <a href="#">jazzman</a></li>
+					<li><i class="fa fa-comment"></i> <a href="#">12</a> comments</li>
+				</ul>
+
+			</section>
+
+			<section id="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non augue eu tortor porttitor tempor nec sed dolor. Sed dui nulla, commodo eu pretium in, scelerisque quis dolor. In tempus justo id nulla dapibus interdum. Aenean a ante velit, nec rutrum arcu. Nullam mi nulla, consectetur ut gravida eget, ullamcorper nec magna. Proin sed mattis massa. Pellentesque neque mi, gravida id ornare vel, hendrerit et urna.</p>
+
+				<p>Quisque iaculis, erat id volutpat rhoncus, justo erat congue risus, dapibus vestibulum odio leo quis nibh. Maecenas imperdiet accumsan posuere. Donec tellus leo, varius ac porta ac, bibendum ac mi. Integer iaculis orci interdum neque porta ac molestie ipsum aliquet. Vestibulum malesuada sem sed ipsum aliquet pharetra vulputate eget nunc. Cras enim ipsum, viverra non posuere eu, commodo et odio. Morbi sagittis tincidunt justo.</p>
+
+				<blockquote>"Vestibulum malesuada sem sed ipsum aliquet pharetra vulputate eget nunc. Cras enim ipsum, viverra non posuere eu, commodo et odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non augue eu tortor porttitor tempor nec sed.”</blockquote>
+
+				<p>Commodo et odio. Morbi sagittis tincidunt justo, a interdum tortor sagittis dictum. Suspendisse pharetra, quam quis semper auctor, elit sem pharetra nulla, id fringilla quam turpis ut quam. Praesent id massa felis. Cras dignissim mollis dui, vitae consequat orci posuere nec.</p>
+
+			</section>
+
+			<section id="comment">
+				<h3>Comments on the article</h3>
+				<section id="readComments">
+					<article>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque facere, natus ex, enim doloribus pariatur vero earum. Dicta quidem incidunt rerum eveniet voluptates error necessitatibus nobis rem deserunt. A, maxime.</p>
+						<p><i class="fa fa-comment"></i> Comment by : Julien Noyer <span><a href="mailto:j.noyer@digitalworkshop.fr" target="_blank">j.noyer@digitalworkshop.fr</a></span></p>
+					</article>
+				</section>
+
+				<h3>Leave a comment</h3>
+
+				<form method="post" action="connexion.php">
+					<input id="userName" type="text" name="userName" placeholder="Your name" />
+					<input id="userEmail" type="email" name="userEmail" placeholder="Your email" />
+					<textarea id="message" name="message" rows="10" cols="30" ></textarea>
+					<button id="validation" type="submit">Post comment</button>
+					<span id="helpForm"></span>
+				</form>
+
+			</section>
+
+
+		</main>
+
+		<footer>
+			Copyright © 2015 Mostrare. All rights reserved.
+		</footer>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/comments.js"></script>
+	</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello My name is</title>
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<p id="logo">Mostrare</p>
+			<em>Photographe</em>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="my_works.html">My works</a></li>
+					<li id="moveMyLi"><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<strong id="headerTwitter">Tweet</strong>
+			<p>@Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet felis at ipsum gravida dictum condimentum in purus. 17 minutes ago</p>
+
+			<strong>Social</strong>
+			<ul>
+				<li><a href="#"><img src="img/pictos/facebook.png" height="20" width="20" alt=""></a></li>
+				<li><a href="#"><img src="img/pictos/behance.png" height="20" width="20" alt=""></a></li>
+				<li><a href="#"><img src="img/pictos/vimeo.png" height="20" width="20" alt=""></a></li>
+			</ul>
+
+		</header>
+
+		<main>
+
+			<!--
+			Créer un formulaire de contact avec
+			1 : champs prénom
+			2 : champs nom
+			3 : champs email
+			4 : menu déroulant pays (france, italie, roumanie)
+			5 : bouton radio genre (femme, homme, robot)
+			6 : checkbox compétences (HTML, CSS, JS)
+			7 : champs message
+
+			- Les 7 points sont obligatoires
+			- Le prénom doit être différent du nom
+			- Minimum 8 caractères dans les champs
+			- A la validation ajouter le message dans le DOM
+			-->
+			<h1>Formulaire de contact</h1>
+			<h2>Remplissez tous les champs</h2>
+			<form>
+				<div>
+					<p>Vos coordonnées</p>
+					<input id="userFirstName" type="text" name="firstName" placeholder="Prénom">
+					<span class="error"></span>
+
+					<input id="userLastName" type="text" name="lastName" placeholder="Nom">
+					<span class="error"></span>
+
+					<input id="userEmail" type="email" name="email" placeholder="Email">
+					<span class="error"></span>
+
+					<p>Choisissez un pays</p>
+					<select id="userCountry" name="country">
+					  <option value="france">France</option>
+					  <option value="italie">Italie</option>
+					  <option value="roumanie">Roumanie</option>
+					</select>
+					<span class="error"></span>
+				</div>
+
+				<div id="genderSection">
+					<p>Genre</p>
+					<br>
+					<input type="radio" name="gender" value="woman"/> Femme <br>
+					<input type="radio" name="gender" value="man"/> Homme<br>
+					<input type="radio" name="gender" value="robot" /> Robot
+					<span class="error"></span>
+				</div>
+
+				<div id="skillsSection">
+					<p>Comptétences</p>
+					<input type="checkbox" name="skills" value="html">HTML
+					<input type="checkbox" name="skills" value="css">CSS
+					<input type="checkbox" name="skills" value="js">JS
+					<span class="error"></span>
+				</div>
+
+				<div>
+					<p>Votre message</p>
+					<textarea id="userMessage" name="message" rows="10" cols="30" ></textarea>
+					<span class="error"></span>
+				</div>
+
+				<div>
+					<button id="userValidation" type="submit">Envoyer</button>
+				</div>
+			</form>
+
+		</main>
+
+		<footer>
+			Copyright © 2015 Mostrare. All rights reserved.
+		</footer>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/message.js"></script>
+	</body>
+</html>

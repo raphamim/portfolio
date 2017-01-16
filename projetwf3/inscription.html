@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello My name is</title>
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+
+		<header>
+					<p id="logo">Mostrare</p>
+			<em>Photographe</em>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="my_works.html">My works</a></li>
+					<li id="moveMyLi"><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<strong id="headerTwitter">Tweet</strong>
+			<p>@Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet felis at ipsum gravida dictum condimentum in purus. 17 minutes ago</p>
+
+			<strong>Social</strong>
+			<ul>
+				<li><a href="#"><img src="img/pictos/facebook.png" height="20" width="20" alt=""></a></li>
+				<li><a href="#"><img src="img/pictos/behance.png" height="20" width="20" alt=""></a></li>
+				<li><a href="#"><img src="img/pictos/vimeo.png" height="20" width="20" alt=""></a></li>
+			</ul>
+
+		</header>
+
+		<main>
+			<h1>Formulaire d'insciption</h1>
+			<h2>Remplissez tous les champs</h2>
+			<form>
+				<!-- PopIn reponse -->
+				<div id="formResponse">
+					<div></div>
+				</div>
+				<div>
+					<p>Vos coordonnées</p>
+					<input id="userFirstName" type="text" name="firstName" placeholder="Prénom">
+					<span class="error"></span>
+
+					<input id="userLastName" type="text" name="lastName" placeholder="Nom">
+					<span class="error"></span>
+
+					<input id="userEmail" type="email" name="email" placeholder="Email">
+					<span class="emailError error"></span>
+
+					<p>Genre</p>
+					<select>
+					  <option disabled selected value="none"> -- select -- </option>
+					  <option name="gender" value="woman">Femme</option>
+					  <option name="gender" value="man">Homme</option>
+					  <option name="gender" value="robot">Robot</option>
+					</select>
+					<span class="genderError error"></span>
+				</div>
+
+				<div id="passSection">
+					<p>Choisissez vos identifiants</p>
+					<input id="userPseudo" type="text" name="pseudo" placeholder="Votre pseudo">
+					<span class="error"></span>
+
+					<input id="userPass" type="password" name="pass" placeholder="Votre mot de passe">
+					<input id="verifPass" type="password" name="verifPass" placeholder="répéter votre mot de passe">
+					<span class="passError error"></span>
+
+				</div>
+
+				<div id="profilUser">
+					<p>Profil Utilisateur</p>
+					<input type="radio" name="profil" value="admin"> Administrateur
+					<input type="radio" name="profil" value="contribute"> Contributeur
+					<input type="radio" name="profil" value="subscriber"> Abonné
+					<span class="error"></span>
+				</div>
+
+				<div id="skillsSection">
+					<p>Comptétences</p>
+					<input type="checkbox" name="skills" value="html">HTML
+					<input type="checkbox" name="skills" value="css">CSS
+					<input type="checkbox" name="skills" value="js">JavaScript
+					<input type="checkbox" name="skills" value="jquery">jQuery
+					<span class="error"></span>
+				</div>
+
+				<div>
+					<input type="reset">
+					<button id="userValidation" type="submit">Envoyer</button>
+				</div>
+			</form>
+
+		</main>
+
+		<footer>
+			Copyright © 2015 Mostrare. All rights reserved.
+		</footer>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="js/inscription.js"></script>
+	</body>
+</html>

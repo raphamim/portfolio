@@ -1,0 +1,491 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,300,400);
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+
+/* Animations pour les span Skills */
+
+@keyframes animationSkillsHtml {
+    from { width:0%; }
+    to   { width:79%; }
+}
+
+-webkit-@keyframes animationSkillsHtml {
+    from { width:0%; }
+    to   { width:79%; }
+}
+
+@keyframes animationSkillsCss{
+    from { width:0%; }
+    to   { width:85%; }
+}
+
+-webkit-@keyframes animationSkillsCss {
+    from { width:0%; }
+    to   { width:85%; }
+}
+
+@keyframes animationSkillsJs{
+    from { width:0%; }
+    to   { width:55%; }
+}
+
+-webkit-@keyframes animationSkillsJs {
+    from { width:0%; }
+    to   { width:55%; }
+}
+
+@keyframes animationLogoHome {
+    0% { opacity:0; font-size: 25px; }
+    50% { opacity:0.5;  font-size: 40px; }
+    100% { opacity:1;  font-size: 65px; }
+}
+
+-webkit-@keyframes animationLogoHome {
+    0% { opacity:0; font-size: 25px; }
+    50% { opacity:0.5;  font-size: 40px; }
+    100% { opacity:1;  font-size: 65px; }
+}
+
+/**/
+
+body{
+	background-color: #404040;
+	background-image: url("../img/background.png");
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, blockquote {
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    color: #f90;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 34px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white
+}
+
+h1 span {
+    color: white;
+    font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+    color: #f90;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+    font-size: 12px;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header{
+	background-color: #282828;
+	width: 250px;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	height: 100%;
+}
+
+#logo {
+    font-family: 'Pacifico', cursive;
+    color: #f90;
+    font-size: 35px;
+    margin: 25px 0 0 0;
+    line-height: 20px;
+    margin-left: -10px;
+}
+
+header em {
+    font-size: 10px;
+    margin-left: 23px;
+    font-style: italic;
+}
+
+header li, #pageTitle li{
+	display: inline-block;
+}
+
+nav li{
+	display: block;
+}
+
+nav, header strong {
+    margin-top: 25px;
+    display: block;
+}
+
+nav a, header strong {
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-transform: uppercase;
+
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+nav a:hover{
+	color: #f90;
+	padding-left: 5px;
+
+	transition: all 0.5s
+	-webkit-transition: all 0.5s
+}
+
+.active {
+    color: #f90;
+}
+
+#moveMyLi {
+    margin-top: 15px;
+}
+
+#headerTwitter {
+    background-image: url("../img/pictos/twitter.png");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+main {
+    margin: 0 0 50px 310px;
+    max-width: 800px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #282828;
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 10px;
+}
+
+#content {
+    min-height: 303px;
+}
+
+/* Style page d'accueil*/
+
+#homePage {
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+
+#homePage section {
+    width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+#homePage #logo {
+    font-size: 65px;
+
+    animation-name: animationLogoHome;
+    animation-duration: 2s;
+}
+
+/* Styles page About */
+
+#profilImg {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+}
+
+#nameAbout {
+    margin-bottom: 0;
+    line-height: 14px;
+}
+
+#skills {
+    clear: both;
+    margin-top: 40px;
+}
+
+#skills li {
+    width: 500px;
+    background-color: #282828;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+#skills li span:first-of-type, #skills li span:last-of-type {
+    display: inline-block;
+}
+
+#skills li span:first-of-type {
+    background-color: #f90;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+}
+
+#skillHtml span:first-of-type {
+    width: 79%;
+
+    animation-name: animationSkillsHtml;
+    animation-duration: 2s;
+}
+
+#skillCss span:first-of-type {
+    width: 85%;
+
+    animation-name: animationSkillsCss;
+    animation-duration: 2s;
+}
+
+#skillJs span:first-of-type {
+    width: 55%;
+
+    animation-name: animationSkillsJs;
+    animation-duration: 2s;
+}
+
+#skills li span:last-of-type {
+    position: absolute;
+    right: 15px;
+    margin-top: 5px;
+
+}
+
+/* Styles page My Works */
+
+#myWorks {
+    margin-top: 20px;
+}
+
+#myWorks article {
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    position: relative;
+}
+
+#myWorks img {
+    width: 180%;
+    vertical-align: top;
+}
+
+.overlay {
+    background-color: rgba(255, 153, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../img/back-overlay.jpg");
+    background-repeat: no-repeat;
+    background-position-x: -40px;
+    background-position-y: 200px;
+
+    transition:all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.overlay:hover {
+    background-color: rgba(255, 153, 0, 0.5);
+    background-position-y: 124px;
+    background-position-x: 0;
+
+    transition:all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+/* Styles page Articles */
+
+#pageTitle img {
+    width: 100%;
+}
+
+#pageTitle h2 {
+    text-transform: none;
+    color: #f90;
+}
+
+#pageTitle aside {
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#pageTitle li:not(:first-of-type) {
+    margin-left: 25px;
+}
+
+/*Section comment */
+/* Cacher le nouveaux commentaire pour le faire apparaitre en JS */
+
+#userValidation {
+    width: 100%;
+}
+
+.newComment {
+    display: none;
+}
+
+#comment h3:last-of-type{
+    margin-top: 40px;
+}
+
+#readComments article {
+    background-color: #282828;
+    border-radius: 20px 0 20px 0;
+    padding: 20px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+#readComments p:first-of-type {
+    margin: 0 0 25px 0;
+    word-wrap: break-word;
+}
+
+#readComments p:last-of-type {
+    font-size: 12px;
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px 15px;
+    margin: 0;
+    border-radius: 20px 0 20px 0;
+}
+
+#comment {
+    border-top: 1px solid grey;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+form {
+    width: 70%;
+}
+
+.error {
+    height: 10px;
+    display: block;
+    font-size: 11px;
+    line-height: 0px;
+    font-style: italic;
+    color: red;
+    margin-bottom: 5px;
+}
+
+
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #282828;
+    color: grey;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+input:focus, textarea:focus {
+    background-color: white;
+    color: black;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+button {
+    background-color: #f90;
+    border: none;
+    padding: 10px;
+}
+
+
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+form table {
+    width: 100%;
+}
+
+table tr input:first-of-type{
+    width: 95%
+}
+
+form td {
+    padding-right: 5px;
+}
+
+form div {
+    margin-top: 20px;
+    padding-top: 25px;
+    border-top: 1px solid grey;
+}
+
+form p {
+    color: #f90;
+    font-weight: bold;
+}
+
+form div button{
+    margin-top: 15px;
+}
+
+form div p:last-of-type {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#formResponse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding-top: 150px;
+    z-index: 1000;
+    margin: 0;
+    display: none;
+}
+
+#formResponse h2{
+    color: black
+}
+
+#formResponse div {
+    width: 50%;
+    margin: auto;
+    border: none;
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}

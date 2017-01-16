@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Animation</title>
+
+		<style type="text/css">
+
+			@keyframes animationDiv {
+				0% { background-color: red; left:0; top: 0}
+				25% { background-color: black;  left:550px; top: 0}
+				50% { background-color: green;  left:550px; top: 550px}
+				75% { background-color: cyan;  left:0; top: 550px}
+				100% { background-color: red;  left:0; top: 0 }
+			}
+
+
+			#container {
+				border: 2px solid black;
+				width: 600px;
+				height: 600px;
+				margin: 50px auto;
+				position: relative;
+			}
+
+			#animation{
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				position: absolute;
+
+				animation-name: animationDiv;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+				animation-iteration-count: 2;
+				animation-direction: alternate;
+			}
+
+			#pasRapide{
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				position: absolute;
+
+				animation-name: animationDiv;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+				animation-iteration-count: 2;
+				animation-delay: 1s;
+			}
+
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+	<div id="container">
+		<div id="animation"></div>
+		<div id="pasRapide"></div>
+
+	</div>
+
+
+
+	</body>
+</html>

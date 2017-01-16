@@ -1,0 +1,17 @@
+#centerextra {
+	margin-right: 5em;
+	margin-left: 5em;
+}
+header {
+	display: none;
+}
+#header-move {
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+
+.navbar-default.affix {
+    border-color: rgba(34,34,34,.05);
+    background-color: #f2f2f2;
+}
