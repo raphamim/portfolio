@@ -409,7 +409,7 @@
 					
 				</div><!-- End row -->
 			</div><!-- End container -->
-			<a href="assets/cvraphaelmimran.png" target="_blank" class="btn btn-theme transparent">Consulter mon CV</a>
+			<a href="assets/cv_raphaelmimran_nw.docx" target="_blank" class="btn btn-theme transparent">Consulter mon CV</a>
 			
 		</section><!-- End Twitter section -->
 		
