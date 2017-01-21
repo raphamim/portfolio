@@ -190,8 +190,8 @@
 					</div>
 					<div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
 						<h1>Bonjour , moi c'est Raphael...</h1>
-						<p>J'ai découvert l'informatique lors d'une première année d'école d'ingénierie informatique <span>< EPSI ></span>. J'ai pu suivre un enseignement très varié au niveau des langages (HTML,C# , C++, PHP...). Mais j'étais particulièrement passionné par le Web.<br/>
-						J'ai donc décidé de m'y consacrer pleinement , en rejoignant une formation intensive au métier développeur Web <span>< Web Force 3 ></span>au cours de laquelle j'ai obtenu les certifications d'Itégrateur Web/Développeur Web inscrites au <span>CNCP</span>. </p>
+						<p>J'ai découvert l'informatique lors d'une première année d'école d'ingénierie informatique <span>< EPSI ></span>. J'ai pu suivre un enseignement très varié au niveau des langages. Mais j'étais particulièrement passionné par le Web.
+						J'ai donc décidé de m'y consacrer pleinement , en rejoignant une formation intensive au métier développeur Web <span>< Web Force 3 ></span>au cours de laquelle j'ai obtenu les certifications d'Itégrateur Web/Développeur Web inscrites au <span>CNCP</span>. Aujourd'hui, je suis en bachelor <span>< Web Developpement ></span> à <span>#SupDeWeb</span></p>
 						<a href="#portfolio" class="btn btn-theme transparent scrollto">Voir mon portfolio</a>
 					</div>
 				</div><!--End row -->
@@ -210,35 +210,35 @@
 				<div class="row skills">
 
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="90"><span class="percent">90</span></span>
+						<span class="chart" data-percent="90"></span>
 						<h2 class="text-center">HTML / CSS</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="70"><span class="percent">70</span></span>
+						<span class="chart" data-percent="69"></span>
 						<h2 class="text-center">PHP/SQL</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="60"><span class="percent">60</span></span>
+						<span class="chart" data-percent="77"></span>
 						<h2 class="text-center">JS/JQUERY</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="60"><span class="percent">60</span></span>
+						<span class="chart" data-percent="50"></span>
 						<h2 class="text-center">Wordpress</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="60"><span class="percent">60</span></span>
+						<span class="chart" data-percent="72"></span>
 						<h2 class="text-center">Opquast</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="50"><span class="percent">50</span></span>
+						<span class="chart" data-percent="76"></span>
 						<h2 class="text-center">Git</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="40"><span class="percent">40</span></span>
+						<span class="chart" data-percent="55"></span>
 						<h2 class="text-center">Linux</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="40"><span class="percent">40</span></span>
+						<span class="chart" data-percent="58"></span>
 						<h2 class="text-center">Ps/Indesign</h2>
 					</div>
 					
@@ -332,9 +332,9 @@
 					<!-- ==============================================
 					YAN&VAN SINGLE PROJECT ITEM
 					=============================================== -->	
-					<a class="project-item web-design" href="yanandvan" data-images="assets/projects/projet3slide1.png,assets/projects/projet3slide2.png,assets/projects/projet3slide3.png,assets/projects/projet3slide4.png">
+					<a class="project-item web-design" href="http://www.yanandvan.fr" data-images="assets/projects/projet3slide1.png,assets/projects/projet3slide2.png,assets/projects/projet3slide3.png,assets/projects/projet3slide4.png">
 						
-						<img class="img-responsive project-image" src="assets/projects/portfolio-2.jpg"  alt="accueil yan and van"><!--Project thumb -->
+						<img class="img-responsive project-image" src="assets/projects/portfolio-2.jpg"  alt="accueil yan and van"><!--Project thumb --> 
 						
 						<div class="hover-mask">
 							<h2 class="project-title">YAN&VAN</h2><!--Project Title -->
@@ -505,7 +505,7 @@
 					
 					<div class="col-sm-6 right-col">
 						<h2>Qui je suis?</h2>
-						<p>Un développeur web passionné. Souhaitant perfectionner mes compétences afin de devenir Full Stack , je cherche une nouvelle formation pouvant completer mon cursus, et me faire devenir un professionnel reconnu ! </p>
+						<p>Un développeur web passionné. Souhaitant perfectionner mes compétences afin de devenir Full Stack , je cherche un stage d'une durée de 4 mois a partir du mois d'Avril afin de valider mon année ! </p>
 					</div>
 					
 				</div><!-- End row -->
